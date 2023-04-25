@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.distanceContainer {
+  margin-top: 20px;
+  display: flex;
+}
+
+.distanceBox {
+  min-width: 150px;
+}
