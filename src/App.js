@@ -4,7 +4,7 @@ import Game from "./Game";
 
 export default function App() {
   const word = "dark";
-  const targetScore = 7;
+  const targetScore = 250;
   const [showGame, setShowGame] = useState(false);
   const [timerStart, setTimerStart] = useState();
   const startGame = () => {

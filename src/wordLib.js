@@ -1,4 +1,4 @@
-import data from "./sample_dictionary.json";
+import data from "./words_dictionary.json";
 
 export function isWord(word) {
   return data[word] === 1;
