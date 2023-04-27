@@ -98,7 +98,7 @@ export default function Game(props) {
           <input
             type="text"
             value={currentWord}
-            onChange={(e) => setCurrentWord(e.target.value)}
+            onChange={(e) => setCurrentWord(e.target.value.toLocaleLowerCase())}
           />
         </form>
       )}
